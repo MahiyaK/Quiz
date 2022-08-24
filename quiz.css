@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0px 10px 70px 10px;
+    background:url('bgclock.jpg');
+    background-position:top;
+    background-size:cover;
+    font-family: sans-serif;
+    flex: none;
+}
+/*.navbar
+{
+    display:flex;
+    align-items:center;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+
+nav ul li button:hover
+{
+    color: aqua;
+}*/
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.64);
+    color: #fff;
+    /*top: 50%;*/
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,50%);
+    box-sizing: border-box;
+    padding: 68px 30px;
+}
+/*.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:-50px;
+    left: calc(50% -50px);
+}*/
+/*img.avatar {
+    justify-content: center;
+    margin-top: -75px; 
+    border: 1px solid black; 
+    border-radius: 40%;
+}*/
+   
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0px ;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]{
+    border: none;
+    border-radius: 20px;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #219ebc;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+.loginbox a:hover{
+    color: #219ebc ;
+}
